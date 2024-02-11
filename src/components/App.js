@@ -1,5 +1,6 @@
 import React from "react";
 import Profile from "./Profile";
+import Qualifications from "./Qualifications";
 class App extends React.Component {
     constructor(){
         super();
@@ -8,6 +9,7 @@ class App extends React.Component {
         return(
             <div>
                 <Profile></Profile>
+                <Qualifications></Qualifications>
             </div>
         )
     }
